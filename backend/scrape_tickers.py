@@ -45,7 +45,6 @@ def get_index_components():
     for index, url in indices.items():
         try:
             if index in ['ETFs', 'Other']:
-                # Just use symbol with empty name
                 components[index] = url
                 components_names[index] = [(symbol, '') for symbol in url]
                 continue

@@ -24,22 +24,31 @@ const mockTickersData: TickerData[] = [
   { ticker: 'GOOGL', company: 'Alphabet Inc.', sector: 'Technology', industry: 'Internet', country: 'US', marketCap: '1.6T', pe: '25.8', price: '134.12', change: '-0.95', volume: '28.7M' },
   { ticker: 'AMZN', company: 'Amazon.com Inc.', sector: 'Consumer Cyclical', industry: 'E-commerce', country: 'US', marketCap: '1.4T', pe: '45.2', price: '142.87', change: '+3.21', volume: '31.5M' },
   { ticker: 'TSLA', company: 'Tesla Inc.', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers', country: 'US', marketCap: '805B', pe: '65.3', price: '254.22', change: '+5.67', volume: '89.3M' },
+  { ticker: 'TSLA', company: 'Tesla Inc.', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers', country: 'US', marketCap: '805B', pe: '65.3', price: '254.22', change: '+5.67', volume: '89.3M' },
+  { ticker: 'TSLA', company: 'Tesla Inc.', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers', country: 'US', marketCap: '805B', pe: '65.3', price: '254.22', change: '+5.67', volume: '89.3M' },
+  { ticker: 'TSLA', company: 'Tesla Inc.', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers', country: 'US', marketCap: '805B', pe: '65.3', price: '254.22', change: '+5.67', volume: '89.3M' },
+  { ticker: 'TSLA', company: 'Tesla Inc.', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers', country: 'US', marketCap: '805B', pe: '65.3', price: '254.22', change: '+5.67', volume: '89.3M' },
+  { ticker: 'TSLA', company: 'Tesla Inc.', sector: 'Consumer Cyclical', industry: 'Auto Manufacturers', country: 'US', marketCap: '805B', pe: '65.3', price: '254.22', change: '+5.67', volume: '89.3M' },
 ];
 
 const sectorData = [
-  { name: 'Technology', value: 40, color: '#3B82F6' },
+  { name: 'Technology', value: 30, color: '#3B82F9' },
   { name: 'Healthcare', value: 20, color: '#10B981' },
   { name: 'Financial', value: 15, color: '#F59E0B' },
-  { name: 'Consumer', value: 15, color: '#EF4444' },
+  { name: 'Consumer', value: 25, color: '#EF4444' },
   { name: 'Energy', value: 10, color: '#8B5CF6' },
 ];
 
 const priceData = [
-  { date: '2024-01-01', price: 180 },
-  { date: '2024-01-02', price: 185 },
-  { date: '2024-01-03', price: 178 },
-  { date: '2024-01-04', price: 192 },
-  { date: '2024-01-05', price: 189 },
+  { date: '2024-01-01', price: 0 },
+  { date: '2024-01-03', price: 80 },
+  { date: '2024-01-03', price: 150 },
+  { date: '2024-01-03', price: 70 },
+  { date: '2024-01-02', price: 285 },
+  { date: '2024-01-03', price: 120 },
+  { date: '2024-01-03', price: 220 },
+  { date: '2024-01-04', price: 100 },
+  { date: '2024-01-05', price: 280 },
 ];
 
 const Dashboard = () => {
